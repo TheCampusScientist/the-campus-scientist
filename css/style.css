@@ -66,7 +66,7 @@ a {
 }
 
 .brand-main {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Cormorant Garamond", serif;
     font-size: clamp(3rem, 7vw, 7rem);
     font-weight: normal;
     letter-spacing: -0.06em;
@@ -131,7 +131,7 @@ a {
 }
 
 .intro h1 {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Cormorant Garamond", serif;
     font-size: clamp(3rem, 7vw, 7rem);
     font-weight: normal;
     line-height: 0.95;
@@ -142,7 +142,7 @@ a {
     max-width: 600px;
     margin-top: 40px;
 
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Cormorant Garamond", serif;
     font-size: 1.35rem;
     line-height: 1.45;
 }
@@ -200,7 +200,7 @@ a {
 }
 
 .featured-text h2 {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Cormorant Garamond", serif;
     font-size: clamp(2rem, 4vw, 4rem);
     font-weight: normal;
     line-height: 1;
@@ -235,7 +235,7 @@ a {
 }
 
 .section-introduction h2 {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Cormorant Garamond", serif;
     font-size: clamp(2.5rem, 5vw, 5rem);
     font-weight: normal;
     line-height: 1;
@@ -279,7 +279,7 @@ a {
 .section-card h3 {
     margin-top: 70px;
 
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Cormorant Garamond", serif;
     font-size: 2rem;
     font-weight: normal;
 }
@@ -301,7 +301,7 @@ a {
 }
 
 .statement p {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Cormorant Garamond", serif;
     font-size: clamp(2rem, 5vw, 5rem);
     line-height: 1;
     letter-spacing: -0.04em;
@@ -414,7 +414,7 @@ footer {
 .article-header h1 {
     max-width: 1000px;
 
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Cormorant Garamond", serif;
     font-size: clamp(3.5rem, 8vw, 8rem);
     font-weight: normal;
     line-height: 0.92;
@@ -426,7 +426,7 @@ footer {
 
     margin-top: 40px;
 
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Cormorant Garamond", serif;
     font-size: 1.5rem;
     line-height: 1.4;
 }
@@ -488,7 +488,7 @@ footer {
 }
 
 .article-intro {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Cormorant Garamond", serif;
 
     font-size: 1.55rem;
     line-height: 1.45;
@@ -500,7 +500,7 @@ footer {
 .article-content h2 {
     margin: 80px 0 25px;
 
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Cormorant Garamond", serif;
     font-size: 2.8rem;
     font-weight: normal;
     line-height: 1;
@@ -517,7 +517,7 @@ footer {
     border-top: 2px solid var(--ink);
     border-bottom: 2px solid var(--ink);
 
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Cormorant Garamond", serif;
     font-size: 2.2rem;
     line-height: 1.15;
 
