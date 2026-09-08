@@ -53,23 +53,63 @@ a {
     border-bottom: 2px solid var(--ink);
 }
 
+/* ---------- LOGO ---------- */
+
 .brand a {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+
     line-height: 0.82;
+
+    color: var(--ink);
+    text-decoration: none;
 }
 
-.brand-small {
-    font-family: "Cormorant Garamond", serif;
-    font-size: 1.2rem;
-    letter-spacing: 0.15em;
+.brand a:hover,
+.brand a:visited,
+.brand a:active {
+    color: inherit;
+    text-decoration: none;
 }
+
+
+/* THE */
+
+.brand-small {
+    font-family: "IBM Plex Mono", monospace;
+
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+
+    color: var(--blue);
+
+    text-decoration: none;
+}
+
+
+/* CAMPUS + SCIENTIST */
 
 .brand-main {
     font-family: "Cormorant Garamond", serif;
-    font-size: clamp(3rem, 7vw, 7rem);
-    font-weight: normal;
-    letter-spacing: -0.06em;
+
+    font-size: clamp(3.5rem, 7vw, 7rem);
+    font-weight: 500;
+
+    line-height: 0.82;
+    letter-spacing: -0.05em;
+
+    color: var(--ink);
+
+    text-decoration: none;
+}
+
+
+/* Make SCIENTIST blue */
+
+.brand a .brand-main:last-child {
+    color: var(--blue);
 }
 
 .tagline {
