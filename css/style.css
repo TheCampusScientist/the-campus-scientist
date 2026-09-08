@@ -89,7 +89,7 @@ a {
 }
 
 
-/* CAMPUS + SCIENTIST */
+/* CAMPUS */
 
 .brand-main {
     font-family: "Cormorant Garamond", serif;
@@ -106,16 +106,9 @@ a {
 }
 
 
-/* Make SCIENTIST blue */
+/* SCIENTIST */
 
-.brand a .brand-main:last-child {
-    color: var(--blue);
-}
-
-.tagline {
-    font-size: 0.75rem;
-    font-weight: bold;
-    letter-spacing: 0.15em;
+.brand-main.scientist {
     color: var(--blue);
 }
 
