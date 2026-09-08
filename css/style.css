@@ -115,35 +115,32 @@ a {
 
 /* ---------- NAVIGATION ---------- */
 
-.main-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0;
-
-    border-bottom: 1px solid var(--ink);
-
-    padding: 0 5vw;
-}
-
 .main-nav a {
     padding: 14px 20px;
-
-    font-size: 0.72rem;
-    font-weight: bold;
-    letter-spacing: 0.08em;
-
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.68rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    color: var(--ink);
+    text-decoration: none;
     border-left: 1px solid var(--ink);
-
-    transition: background 0.2s ease,
-                color 0.2s ease;
+    transition: background 0.2s ease, color 0.2s ease;
 }
 
-.main-nav a:last-child {
-    border-right: 1px solid var(--ink);
+.main-nav a:visited {
+    color: var(--ink);
+    text-decoration: none;
 }
 
 .main-nav a:hover {
+    color: var(--ink);
+    text-decoration: none;
     background: var(--yellow);
+}
+
+.main-nav a:active {
+    color: var(--ink);
+    text-decoration: none;
 }
 
 
