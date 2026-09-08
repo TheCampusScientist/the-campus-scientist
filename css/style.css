@@ -393,3 +393,191 @@ footer {
         text-align: left;
     }
 }
+/* =========================================================
+   ARTICLE PAGES
+   ========================================================= */
+
+.article {
+    width: 100%;
+}
+
+
+/* ---------- ARTICLE HEADER ---------- */
+
+.article-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 110px 5vw 70px;
+}
+
+.article-header h1 {
+    max-width: 1000px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(3.5rem, 8vw, 8rem);
+    font-weight: normal;
+    line-height: 0.92;
+    letter-spacing: -0.055em;
+}
+
+.article-subtitle {
+    max-width: 650px;
+
+    margin-top: 40px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
+
+/* ---------- ARTICLE METADATA ---------- */
+
+.article-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+
+    margin-top: 50px;
+    padding-top: 15px;
+
+    border-top: 1px solid var(--ink);
+
+    font-family: monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.05em;
+}
+
+
+/* ---------- ARTICLE IMAGE ---------- */
+
+.article-image {
+    margin: 0 5vw;
+}
+
+.article-image .image-placeholder {
+    min-height: 650px;
+}
+
+.image-caption {
+    padding: 12px 0;
+
+    font-family: monospace;
+    font-size: 0.65rem;
+    color: #555;
+
+    border-bottom: 1px solid var(--ink);
+}
+
+
+/* ---------- ARTICLE BODY ---------- */
+
+.article-content {
+    max-width: 720px;
+
+    margin: 100px auto;
+    padding: 0 30px;
+
+    font-size: 1.08rem;
+    line-height: 1.8;
+}
+
+.article-content p {
+    margin-bottom: 30px;
+}
+
+.article-intro {
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 1.55rem;
+    line-height: 1.45;
+}
+
+
+/* ---------- ARTICLE HEADINGS ---------- */
+
+.article-content h2 {
+    margin: 80px 0 25px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.8rem;
+    font-weight: normal;
+    line-height: 1;
+    letter-spacing: -0.035em;
+}
+
+
+/* ---------- BLOCKQUOTES ---------- */
+
+.article-content blockquote {
+    margin: 70px 0;
+    padding: 35px 0;
+
+    border-top: 2px solid var(--ink);
+    border-bottom: 2px solid var(--ink);
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.2rem;
+    line-height: 1.15;
+
+    text-align: center;
+}
+
+
+/* ---------- ARTICLE FOOTER ---------- */
+
+.article-footer {
+    max-width: 720px;
+
+    margin: 100px auto;
+    padding: 30px;
+
+    border-top: 2px solid var(--ink);
+    border-bottom: 2px solid var(--ink);
+
+    font-family: monospace;
+    font-size: 0.7rem;
+}
+
+
+/* ---------- ARTICLE MOBILE ---------- */
+
+@media (max-width: 800px) {
+
+    .article-header {
+        padding: 70px 5vw 50px;
+    }
+
+    .article-header h1 {
+        font-size: clamp(3rem, 15vw, 5rem);
+    }
+
+    .article-subtitle {
+        font-size: 1.25rem;
+    }
+
+    .article-meta {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .article-image .image-placeholder {
+        min-height: 350px;
+    }
+
+    .article-content {
+        margin: 70px auto;
+        padding: 0 5vw;
+
+        font-size: 1rem;
+    }
+
+    .article-content h2 {
+        font-size: 2.2rem;
+        margin-top: 60px;
+    }
+
+    .article-content blockquote {
+        font-size: 1.7rem;
+    }
+}
